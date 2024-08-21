@@ -3,7 +3,7 @@
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-paulo-4a6a80311/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](www.youtube.com/@JoãoPauloDev01)
-[![Tiktok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@joaopaulodev01?is_from_webapp=1&sender_device=pc)
+
 
 ![João Paulo GitHub stats](https://github-readme-stats.vercel.app/api?username=JoaoPaulodev01&show_icons=true&theme=onedark)
 
