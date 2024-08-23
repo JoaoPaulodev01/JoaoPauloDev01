@@ -10,7 +10,7 @@
 ## Tecnologias que eu utilizo
 
 <div style='display: inline_block'><br/>
-<img align = 'center' alt='oi' src='https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white'><img align = 'center' alt='oi' src='https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white'>
+<img align = 'center' alt='oi' src='https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white'><img align = 'center' alt='oi' src='https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white'>
 </div></br>
 
 Estou fazendo um curso de Técnico em Informatica para a Internet pelo Senai, estou adepto para aprender qualquer tipo de tecnologia seguindo a demanda do cliente.
