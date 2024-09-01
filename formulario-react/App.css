@@ -1,0 +1,24 @@
+/*centralizar a função App de App.js */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*centralizar o formulário de FormularioEmail.js */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */  
+}
+
+/*estliza mensagem de erro*/
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+/*estiliza botão*/
+.botao {
+  margin-top: 10px;
+}
