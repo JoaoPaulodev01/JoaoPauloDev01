@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body {
+    height: 100%; /* Garante que o html e o body ocupem 100% da altura */
+    margin: 0; /* Remove margens padrão */
+}
+
+body {
+    background-color: #312e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça o conteúdo entre o topo e o rodapé */
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Chakra Petch";
+}
+
+.rodape {
+    background-color: #3c3c3d;
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+}
+
+.rodapetext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+df-messenger {
+    --df-messenger-bot-message: #54565a;
+    --df-messenger-button-titlebar-color: #3d3636;
+    --df-messenger-chat-background-color: #2b2a2a;
+    --df-messenger-font-color: rgb(255, 255, 255);
+    --df-messenger-send-icon: #000000;
+    --df-messenger-user-message: #698366;
+    --df-messenger-input-font-color: #ffffff;
+    --df-messenger-input-box-color: #312e2e;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #3c3c3d;
+    width: 100%; /* Garante que o cabeçalho ocupe 100% da largura */
+    padding: 10px 0; /* Adiciona um pouco de espaço interno (opcional) */
+}
+
+.logocabecalho {
+    width: 50px;
+    height: auto; /* Mantém a proporção da imagem */
+}
