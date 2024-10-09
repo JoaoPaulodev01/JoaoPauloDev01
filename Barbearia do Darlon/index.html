@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/logo.jpg">
+    <title>Barbearia Do Darlon</title>
+</head>
+<header class="cabecalho">
+    <img src="Imagens/logo.jpg" class="logocabecalho">
+</header>
+<body>
+    <h1>Alguns Dos Meus Trabalhos:</h1>
+    <div class="slider">
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="Imagens/Imagenscortes/cortedecabelo1.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="Imagens/Imagenscortes/cortedecabelo2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="Imagens/Imagenscortes/cortedecabelo3.png" alt="Imagem 3">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <h1>Minha História:</h1>
+    <p class="minhaHistoria">Então, tudo começou quando eu ainda era adolescente, cortando o cabelo dos amigos no quintal de casa. Aquilo que era
+    um<br>
+    hobby virou uma paixão, e com o tempo decidi que queria abrir minha própria barbearia. Não tinha dinheiro no início,<br>
+    então trabalhei como aprendiz numa barbearia local, enquanto economizava e estudava.<br><br>
+    
+    Depois de muito esforço, finalmente consegui alugar um pequeno espaço e coloquei a placa: Barbearia do
+    Darlon.<br>
+    No começo foi difícil, mas aos poucos os clientes foram chegando, um recomendando o outro. Hoje, a barbearia é um espaço
+    de<br>
+    boas conversas e cuidado, e eu me orgulho de ter transformado meu sonho em realidade.
+</p>
+    <h2>Onde Estamos Localizados:</h2>
+    <div class="map-container">
+        
+    </div>
+    <p>R. Avelino Lopes Nascimento, 176, Caetanópolis - MG, 35770-000, Brasil</p>
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.6465052316266!2d-44.415204300000006!3d-19.2977328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa7b4bf0552e2c1%3A0xac41d5177cc82c21!2sBarbearia%20Do%20Darlon!5e0!3m2!1sen!2sbr!4v1728435865243!5m2!1sen!2sbr" ></iframe>
+    </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="app.js"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Barbearia Do Darlon"
+        agent-id="fd955130-fa28-406d-9442-21bae13d4573"
+        language-code="pt-br"
+        chat-icon="Imagens/logo.jpg"
+        class="logochat"></df-messenger>
+</body>
+<footer class="rodape">
+    <label class="rodapetext">Todos os direitos reservados - Barbearia Do Darlon&reg;<br>Site desenvolvido por João Paulo&copy;</label>
+</footer>
+</html>
