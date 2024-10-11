@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem e Poema</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+            align-items: flex-start; /* Alinha os itens ao topo */
+        }
+
+        .imagem {
+            flex: 0 0 500px; /* Largura fixa da imagem */
+            margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+        }
+
+        .poema {
+            flex: 1; /* O texto ocupa o restante do espaço */
+            min-width: 300px; /* Largura mínima para o texto */
+            font-size: 24px; /* Tamanho da fonte ajustado para melhor leitura */
+            line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+        }
+
+        img {
+            width: 100%; /* A imagem ocupa 100% do espaço disponível */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column; /* Muda para coluna em telas menores */
+            }
+
+            .imagem {
+                margin-right: 0; /* Remove o espaço à direita */
+                margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="https://s2.glbimg.com/uYsIYy-rQgaW-2hI52R0mZ1cQMc=/620x455/e.glbimg.com/og/ed/f/original/2022/10/03/girassol-e-flor-entenda-casa-e-jardim.jpg" alt="Descrição da imagem">
+        </div>
+        <div class="poema">
+            <p>
+                Que tudo ao amor serei atento<br>
+                Antes, e com tal zelo e sempre tanto<br>
+                Que mesmo em face do maior encanto<br>
+                Dele se encante o meu pensamento<br>
+                Quero vove-lo em cada vão momento<br>
+                E em seu louvor espalhar meu canto<br>
+                Rir meu riso e derramar meu pranto<br>
+                Em seu pesar e em seu contentamento<br>
+                Em seu pesar e em seu contentamento<br>
+                E assim, quando mais tarde me procure<br>
+                Quem sabe a morte, angustia de quem vive<br>
+                Quem sabe a solidão, fim de quem ama<br>
+                Eu posso dizer do amor que tive<br>
+                Que não seja imortal, posto que é chama<br>
+                Mas que seja infinito enquanto dure.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

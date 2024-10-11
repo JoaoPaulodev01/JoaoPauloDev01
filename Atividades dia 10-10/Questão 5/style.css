@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column; /* Mantém a orientação em coluna */
+    align-items: center; /* Centraliza horizontalmente os itens */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
+    justify-content: center; /* Centraliza as imagens na linha */
+}
+
+

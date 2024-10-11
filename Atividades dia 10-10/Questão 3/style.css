@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    width: 40%; /* largura da tela */
+    height: 50%px; /* altura da tela */
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Espaço livre em torno do letreiro */
+    box-sizing: border-box;
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a borda */
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+    line-height: 50px;
+}

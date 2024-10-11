@@ -1,0 +1,38 @@
+.letreiro{
+    color: black;
+    position: relative;
+    font-size: xx-large;
+    animation: mover 10s 3;
+    text-align: left;
+}
+
+.container {
+    width: 80%; /* largura da tela */
+    height: 100px; /* altura da tela */
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Espaço livre em torno do letreiro */
+    box-sizing: border-box;
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a borda */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+  }
+    
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(950px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+

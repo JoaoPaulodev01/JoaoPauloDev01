@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em Colunas</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Mantém a orientação em coluna */
+            align-items: center; /* Centraliza horizontalmente os itens */
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
+            justify-content: center; /* Centraliza as imagens na linha */
+        }
+
+        img {
+            width: 200px; /* Ajuste o tamanho conforme necessário */
+            height: auto; /* Mantém a proporção da imagem */
+            margin: 10px; /* Espaçamento entre as imagens */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/07/12/1717565085-filhotes-golden-retriever.jpg" alt="Imagem 1">
+        <p>Com esta página estou mostrando uma<br>
+            froma de colocar um texto entre duas<br>
+            figuras.</p>
+        <img src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/07/12/1717565085-filhotes-golden-retriever.jpg" alt="Imagem 2">
+
+    </div>
+</body>
+</html>
