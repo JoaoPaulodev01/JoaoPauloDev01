@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0; /* Remove margens padrão */
+}
+
+.navegacao {
+    width: 150px;
+    background-color: rgb(241, 234, 234);
+    height: 100vh; /* Muda para 100vh */
+    margin: 0; /* Remove margens externas */
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.opcoesNav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+    margin-top: 75px;
+    border: 2px solid black;
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #6aa885;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sair {
+    color: black;
+    text-decoration: none;
+    margin-top: 280px;
+}
+
+main {
+    position: absolute;
+    top: 33.3%;
+    left: 50%;
+    transform: translate(-40%);
+}
+
+.calculadora {
+    border: 2px solid black;
+    border-radius: 7.5px;
+    box-shadow: 2px 2px 10px black;
+    width: 720px;
+}
+
+h3 {
+    flex-direction: column;
+    font-family: "Chakra Petch";
+}
+
+h1 {
+    text-align: center;
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 5px;
+    background-color: rgb(59, 59, 88);
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 7.5px;
+    box-shadow: 2px 2px 10px black;
+    width: 100px;
+}
+
+.caixastexts{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin: 5px;
+    background-color:rgb(107, 156, 156);
+}
+
+.caixatext1 {
+    background-color: #6aa885;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixatext2 {
+    background-color: #6aa885;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixatext3 {
+    background-color: #6aa885;
+    display: flex;
+    justify-content: space-between;
+}
