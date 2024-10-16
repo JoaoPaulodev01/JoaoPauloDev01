@@ -22,22 +22,24 @@
     </aside>
     <main>
         <div class="calculadora">
+            <div id="resultado" class="resultado"></div>
             <h1>Preencha os dados para calcular o seu IMC:</h1>
             <div class="textos">
-                <h3>Altura (M):</h3>
-                <h3>Peso (Kg):</h3>
-                <h3>Gênero:</h3>
+                <h3 class="altura">Altura (M):</h3>
+                <h3 class="peso">Peso (Kg):</h3>
+                <h3 class="dataNasc">Data de Nascimento:</h3>
             </div>
             <div class="caixastexts">
-                <div><input type="number" class="caixatext1" placeholder="Digite"></div>
-                <div><input type="number" class="caixatext2" placeholder="Digite"></div>
-                <div><input type="number" class="caixatext3" placeholder="Digite"></div>
+                <div><input type="number" class="caixatext1" placeholder="Digite" id="altura"></div>
+                <div><input type="number" class="caixatext2" placeholder="Digite" id="peso"></div>
+                <div><input type="date" class="caixatext3" placeholder="Digite" id="dataNascimento"></div>
             </div>
             <div class="botoes">
-                <button class="botao1">CALCULAR</button>
+                <button class="botao1" onclick="calcular()">CALCULAR</button>
                 <button type="reset" class="botao2">LIMPAR</button>
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
