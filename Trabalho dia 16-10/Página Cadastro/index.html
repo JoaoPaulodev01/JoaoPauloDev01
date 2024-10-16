@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <aside class="navegacao">
+        <a href="http://127.0.0.1:5500/P%C3%A1gina%20Inicial/index.html">
+            <img src="/Imagens/Logo.png" class="logo">
+        </a>
+        <nav class="opcoesNav">
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Fotos/indexfotos.html" class="a">Fotos</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Email/index.html" class="a">E-mail</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Localiza%C3%A7%C3%A3o/index.html" class="a">Localização</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Cadastro/index.html" class="a">Cadastro</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Sair/index.html" class="a">Sair</a>
+        </nav>
+    </aside>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="CPF" id="cpf" class="inputUser" required>
+                    <label for="cpf" class="labelInput">CPF</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <button type="submit" id="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

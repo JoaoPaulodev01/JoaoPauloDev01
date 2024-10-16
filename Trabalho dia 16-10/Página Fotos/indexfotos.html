@@ -9,21 +9,51 @@
 </head>
 <body>
     <aside class="navegacao">
-        <img src="/Trabalho dia 16-10/Imagens/Logo.png" class="logo">
+        <a href="http://127.0.0.1:5500/P%C3%A1gina%20Inicial/index.html">
+            <img src="/Imagens/Logo.png" class="logo">
+        </a>
         <nav class="opcoesNav">
-            <a href="">Fotos</a>
-            <a href="">E-mail</a>
-            <a href="">Localização</a>
-            <a href="">Cadastro</a>
-            <a href="" class="sair">Sair</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Fotos/indexfotos.html" class="a">Fotos</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Email/index.html" class="a">E-mail</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Localiza%C3%A7%C3%A3o/index.html" class="a">Localização</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Cadastro/index.html" class="a">Cadastro</a>
+            <a href="http://127.0.0.1:5500/P%C3%A1gina%20Sair/index.html" class="a">Sair</a>
         </nav>
     </aside>
     <main>
-        <div class="calculadora">
-            <div class="fotos">
-                <img src="/Trabalho dia 16-10/Imagens/foto1.jpeg"><img src="/Trabalho dia 16-10/Imagens/foto2.jpeg"><img src="/Trabalho dia 16-10/Imagens/foto3.jpeg">
+        <div class="slider">
+            <div class="slides">
+            
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+            
+                    <div class="slide first">
+                        <img src="/Imagens/foto1.jpeg" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/Imagens/foto2.jpeg" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/Imagens/foto3.jpeg" alt="Imagem 3">
+                    </div>
+            
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+            
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            
             </div>
-        </div>
+            
+            <script src="script.js"></script>
     </main>
 </body>
 </html>

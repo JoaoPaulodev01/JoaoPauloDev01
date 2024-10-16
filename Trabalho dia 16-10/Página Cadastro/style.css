@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #b6e7cd, #538368);
+    margin: 0;
+    width: 720px;
+}        
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+fieldset {
+    border: 3px solid #538368;
+}
+
+legend {
+    border: 1px solid #538368;
+    padding: 10px;
+    text-align: center;
+    background-color: #538368;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~.labelInput, .inputUser:valid ~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #538368;
+}
+
+#submit {
+    background-image: linear-gradient(to right, #b6e7cd, #538368);
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, #5c806d, #1f432f);
+}
+
+.navegacao {
+    width: 150px;
+    background-color: rgb(241, 234, 234);
+    height: 100vh;
+    /* Muda para 100vh */
+    margin: 0;
+    /* Remove margens externas */
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.opcoesNav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside .a {
+    color: black;
+    text-decoration: none;
+    margin-top: 45px;
+    border: 2px solid black;
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px black;
+    background-color: #538368;
+}

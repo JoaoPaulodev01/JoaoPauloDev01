@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    /* Remove margens padrão */
+}
+
+.navegacao {
+    width: 150px;
+    background-color: rgb(241, 234, 234);
+    height: 100%;
+    /* Muda para 100vh */
+    margin: 0;
+    /* Remove margens externas */
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.opcoesNav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside .a {
+    color: black;
+    text-decoration: none;
+    margin-top: 45px;
+    border: 2px solid black;
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px black;
+    background-color: #538368;
+}
+.mapa-container {
+    display: flex;
+    /* Habilita o flexbox para centralizar o conteúdo */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    width: 500px;
+    /* Ocupa 100% da largura da área pai */
+    height: 300px;
+    /* Define a altura para o contêiner do mapa */
+    margin: 10px 0;
+    /* Reduz a margem superior e inferior para menos espaço */
+    position: absolute;
+    top: 33.3%;
+    left: 50%;
+    transform: translate(-40%);
+    border-radius: 10px;
+    border: 2px solid #538368;
+}
+
+.mapa-container iframe {
+    width:500px;
+    /* Largura do mapa */
+    height: 300px;
+    /* Altura do mapa */
+    border: 0;
+    /* Remove a borda do iframe */
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 5px 0;
+    /* Reduz a margem do parágrafo do endereço */
+    text-align: center;
+    /* Centraliza o texto se desejado */
+    text-align: center;
+    color: #538368;
+    position: absolute;
+    top: 25.3%;
+    left: 50%;
+    transform: translate(-40%);
+}
