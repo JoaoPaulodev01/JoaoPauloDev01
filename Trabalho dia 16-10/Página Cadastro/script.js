@@ -40,7 +40,7 @@ function validarCPF(cpf) {
 }
 
 // Função para formatar o CPF e verificar sua validade
-const cpfInput = document.querySelector("#CPF");
+const cpfInput = document.querySelector("#cpf");
 
 cpfInput.addEventListener('input', (e) => {
     let value = cpfInput.value.replace(/\D/g, ''); // Remove caracteres não numéricos
