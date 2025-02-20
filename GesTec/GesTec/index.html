@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/logo.jpg">
+    <title>GesTec</title>
+</head>
+<header class="cabecalho">
+    <img src="Imagens/logo.jpg" class="logocabecalho">
+</header>
+
+<body>
+    <h1>Algumas Imagens:</h1>
+    <div class="slider">
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="Imagens/Imagenscortes/cortedecabelo1.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="Imagens/Imagenscortes/cortedecabelo2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="Imagens/Imagenscortes/cortedecabelo3.png" alt="Imagem 3">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <h1>Minha História:</h1>
+    <p class="minhaHistoria">Tudo começou com diálogos no curso de Assistente Administrativo, <br>onde eram discutidas as
+        ações diárias de cada jovem aprendiz em seus respectivos setores.<br> A partir dessas discussões, foi possível
+        observar que o almoxarifado, local de trabalho de Guilherme, apresentava necessidades empíricas<br> e possibilidades
+        de melhoria.<br><br>
+
+        Com isso, para desenvolver o projeto integrador, criamos a GESTEC, uma empresa que busca atuar na área
+        administrativa,<br> auxiliando e desenvolvendo projetos para melhorar o desempenho de seus clientes.<br><br>
+
+        O nosso principal objetivo é atuar na área administrativa,<br>auxiliando e desenvolvimento projetos para melhorar o desempenho dos nossos clientes.
+
+    </p>
+    <h2>Onde Estamos Localizados:</h2>
+    <div class="map-container">
+
+    </div>
+    <p>R. Fernando Lima, 215, Caetanópolis - MG, 35770-000, Brasil</p>
+    <div class="mapa-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5913610889215!2d-44.41170112496676!3d-19.3001288819511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa7b4ec5b2489ed%3A0x6042566e8b1790cb!2sSecretaria%20Municipal%20de%20Educa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1733416543644!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger intent="WELCOME" chat-title="Almoxarifado" agent-id="733d7e59-81f4-4c83-8250-ae717100e5d9"
+        language-code="pt-br" chat-icon="Imagens/logo.jpg" class="logochat"></df-messenger>
+</body>
+<footer class="rodape">
+    <label class="rodapetext">Todos os direitos reservados - GesTec&reg;<br>Site desenvolvido por João
+        Paulo&copy;</label>
+</footer>
+
+</html>
